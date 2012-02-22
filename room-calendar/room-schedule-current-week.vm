@@ -1,0 +1,296 @@
+## default region is an XML block with a simple block chooser data definition:
+##	<group identifier="blockchooser" label="block" multiple="false">
+##	  <asset identifier="blockID" label="BlockName" multiple="true" render-content-depth="unlimited" required="true" type="block"/>
+##	</group>
+##  attached blocks are:
+## 		1) index block containing only data for current page
+##		2) feed block for /XML-Source/calendar.xml (event listing)
+##		3) feed block for /XML-Source/schedule.xml (class schedule)
+##
+## get info from block 1
+#set ( $pageName = $_XPathTool.selectSingleNode($contentRoot,"//calling-page/system-page/name").value )
+#set ( $pageTitle = $_XPathTool.selectSingleNode($contentRoot,"//calling-page/system-page/title").value )
+#set ( $roomNumber = $_XPathTool.selectSingleNode($contentRoot,"//calling-page/system-page/name").value.toUpperCase() )
+## get root node for blocks 2 and 3
+#set ($eventCal = $_XPathTool.selectSingleNode($contentRoot,"/system-data-structure/blockID/content/calendar"))
+#set ($classCal = $_XPathTool.selectSingleNode($contentRoot,"/system-data-structure/blockID/content/schedule"))
+
+##*************************************************************************************************************
+## form to jump to different room/week 
+## (jumpWeek.php just redirects to html page with room number and week
+<form action="/schedule/rooms/weekly/jumpWeek.php" method="post" id="jumpWeek">
+<fieldset><legend>Select a Weekly Room Schedule</legend>
+<label for="roomNumber">Room:<select name="roomNumber" id="roomNumber">
+<option></option>
+<optgroup label="Basement">
+	<option value="BK08">BK08</option>
+    <option value="BL01">BL01</option>
+    <option value="BL03">BL03</option>
+    <option value="BL07">BL07</option>
+</optgroup>
+<optgroup label="1st Floor">
+	<option value="1A09">1A09</option>
+##snip
+</optgroup>
+</select></label>
+
+## find start date to loop through the current week
+#set ($calendar = $_DateTool.getCalendar() )
+#set ($todayDate = $_DateTool.getDate())
+$calendar.setTime($todayDate)
+
+## get current day of the week and determine offset to get week start date
+#set ($todayDOW = $_DateTool.format('EEE',$todayDate))
+#if ($todayDOW == 'Sun')
+#set ($startPoint = 0)
+#elseif ($todayDOW == 'Mon')
+#set ($startPoint = -1)
+#elseif ($todayDOW == 'Tue')
+#set ($startPoint = -2)
+#elseif ($todayDOW == 'Wed')
+#set ($startPoint = -3)
+#elseif ($todayDOW == 'Thu')
+#set ($startPoint = -4)
+#elseif ($todayDOW == 'Fri')
+#set ($startPoint = -5)
+#elseif ($todayDOW == 'Sat')
+#set ($startPoint = -6)
+#end
+## calendar offset, then store in variable
+$calendar.add(6, $startPoint )
+#set ($jumpWeek = $calendar.getTime())
+## output the form field for dates
+<label for="weekNumber">Week Starting:<select name="weekNumber" id="weekNumber"><option></option>
+#foreach ( $weekDay in [0..52] )
+<option value="${_DateTool.format('MM-dd-yy',$jumpWeek)}">${_DateTool.format('MMMM d, yyyy',$jumpWeek)}</option>
+$calendar.add(6, 7)
+#set ($jumpWeek = $calendar.getTime())
+#end
+</select></label><input type="submit" value=" Go "/></fieldset>
+</form>
+
+##*************************************************************************************************************
+## declare/clear some variables
+#set ($inlineStyles = "")
+#set ($classDaysCheck = "")
+
+## Velocity "macro" (read that, "function") that finds all events for a single day and generates a <div> 
+##  with some CSS to position (based on time/duration of event)
+#macro( showSched $dayDate )
+    #set ($classCount = 0)
+    ## store some date parts from the passed date ($dayDate)
+    #set ($dayLong = $_DateTool.format('EEEEE',$dayDate))
+    #set ($day = $dayLong.substring(0,3).toLowerCase())
+    #set ($dayYear = $_DateTool.format('yyyy',$dayDate))
+    #set ($dayMon = $_DateTool.format('MM',$dayDate))
+    #set ($dayDay = $_DateTool.format('dd',$dayDate))
+    
+    ##*********************************************************************************************************
+	## get the first set of events from the XML (see /XML-Source/calendar.xml for sample XML format)
+    #set ($events = $_XPathTool.selectNodes($eventCal, "//event[location = '${roomNumber}' and ../value = number(${dayDay}) and ../../value = number(${dayMon}) and ../../../value = number(${dayYear})]"))
+    ## loop through above events
+    #foreach ($event in $events)
+        #set ($location = $_XPathTool.selectSingleNode($event, "location"))
+        #set ($classDay = $_XPathTool.selectSingleNode($event, "meeting/day"))
+        #set ($className = $_XPathTool.selectSingleNode($event, "description"))
+        #set ($startDate = $_XPathTool.selectSingleNode($event, "startdate"))
+        #set ($endDate = $_XPathTool.selectSingleNode($event, "enddate"))
+        #set ($classInstr = $_XPathTool.selectSingleNode($event, "facilitator"))
+        
+        #set ($hourStr = $_XPathTool.selectSingleNode($event, "starttime/hour"))
+        #set ($minutesStr = $_XPathTool.selectSingleNode($event, "starttime/minute"))
+        #set ($amStr = $_XPathTool.selectSingleNode($event, "starttime/am"))
+        #set ($hourEStr = $_XPathTool.selectSingleNode($event, "endtime/hour"))
+        #set ($minutesEStr = $_XPathTool.selectSingleNode($event, "endtime/minute"))
+        #set ($amEStr = $_XPathTool.selectSingleNode($event, "endtime/am"))
+        #set ($hour = $_MathTool.toInteger($hourStr.value))
+        #set ($minutes = $_MathTool.toInteger($minutesStr.value))
+        #set ($hourE = $_MathTool.toInteger($hourEStr.value))
+        
+        #if ($amStr.value == 'false' && $hour != 12)
+            #set ($hour = $hour + 12)
+        #end
+        #if ($amEStr.value == 'false' && $hourE != 12)
+            #set ($hourE = $hourE + 12)
+        #end
+        #set ($minutesE = $_MathTool.toInteger($minutesEStr.value))
+        
+        #set ($boxHeight = ((($hourE - $hour - 1) * 60) + (60 - $minutes) + $minutesE) * .6667)
+        #set ($boxHeight = ${_MathTool.round($boxHeight)})
+        #set ($boxTop = ($minutes * .6667) + (($hour - 5) * 40))
+        #set ($boxTop = ${_MathTool.round($boxTop)})
+        
+        #set ($classCount = $classCount + 1)
+        #if (${hour} > 12)
+            #set ($hour = $hour - 12)
+        #end
+        #if (${hourE} > 12)
+            #set ($hourE = $hourE - 12)
+        #end
+        
+        <div class="calendarHours calEvent #if (${className.value} == 'OFFICE') officeHours #end" id="${day}e${classCount}">
+            ${hour}:${minutesStr.value} - ${hourE}:${minutesEStr.value}<br/>
+            ${_EscapeTool.xml($className.value)}<br/> ## escape output for pesky things like ampersands
+            ${_EscapeTool.xml($classInstr.value)}
+        </div>
+        #set ($inlineStyles = "${inlineStyles} div#${day}e${classCount}  { height:${boxHeight}px;margin-top:${boxTop}px; } div#${day}e${classCount}:hover { min-height:${boxHeight}px; }")
+    #end
+    ## end of first set of events (start: line 89)
+
+    ##*********************************************************************************************************
+	## get the second set of events from the XML (see /XML-Source/schedule.xml for sample XML format)
+    #set ($classes = $_XPathTool.selectNodes($classCal, "//meeting[location = '${roomNumber}' and ../startdate <= number(${dayYear}${dayMon}${dayDay}) and ../enddate >= number(${dayYear}${dayMon}${dayDay})]"))
+    ## loop through above events
+    #foreach ($class in $classes)
+        #set ($startTime = $_XPathTool.selectSingleNode($class, "starttime"))
+        #set ($endTime = $_XPathTool.selectSingleNode($class, "endtime"))
+        #set ($location = $_XPathTool.selectSingleNode($class, "location"))
+        #set ($classDay = $_XPathTool.selectSingleNode($class, "day"))
+        #set ($classDayRep = $classDay.value.replaceAll("Th","R"))
+        #set ($classPref = $_XPathTool.selectSingleNode($class, "../../../@name"))
+        #set ($classNum = $_XPathTool.selectSingleNode($class, "../../number"))
+        #set ($classSec = $_XPathTool.selectSingleNode($class, "../sec"))
+        #set ($classInstr = $_XPathTool.selectSingleNode($class, "instructor"))
+        #set ($className = ${classPref.value} + " " + ${classNum.value} + " " + ${classSec.value})
+        #set ($startDate = "")
+        #set ($endDate = "")
+        #set ($startDate = $_XPathTool.selectSingleNode($class, "../startdate"))
+        #set ($endDate = $_XPathTool.selectSingleNode($class, "../enddate"))
+        
+        #set ($hourStr = ${_StringTool.substringBefore($startTime.value, ":")})
+        #set ($minutesStr = ${_StringTool.substringAfter($startTime.value, ":")})
+        #set ($hourEStr = ${_StringTool.substringBefore($endTime.value, ":")})
+        #set ($minutesEStr = ${_StringTool.substringAfter($endTime.value, ":")})
+        #set ($hour = $_MathTool.toInteger($hourStr))
+        #set ($minutes = $_MathTool.toInteger($minutesStr))
+        #set ($hourE = $_MathTool.toInteger($hourEStr))
+        #set ($minutesE = $_MathTool.toInteger($minutesEStr))
+        #set ($boxHeight = ((($hourE - $hour - 1) * 60) + (60 - $minutes) + $minutesE) * .6667)
+        #set ($boxHeight = ${_MathTool.round($boxHeight)})
+        #set ($boxTop = ($minutes * .6667) + (($hour - 5) * 40))
+        #set ($boxTop = ${_MathTool.round($boxTop)})
+        
+        #set ($classStartDate = $_DateTool.toDate('yyyyMMdd',$startDate.value))
+        #set ($classEndDate = $_DateTool.toDate('yyyyMMdd',$endDate.value))
+        
+        ## classDay is a list of days the class meets in MTWRF, MWF, TR, etc. format (at least after I changed Th to R)
+        ##  loop through days of week to determine if class meets on the $dayDate
+        #set ($dayDisplay = false)
+        #set ($classDayLength = ${_MathTool.toInteger($classDay.value.length())})
+        #if (${classDayLength} != 0 && ${classDay.value} != 'TBA')
+            #set ($classDayLength = $classDayLength - 1)
+            #foreach ( $classDays in [0..$classDayLength] )
+                #if ($day == 'mon' && $classDayRep.contains("M"))
+                    #set ($dayDisplay = true)
+                #elseif ($day == 'tue' && $classDayRep.contains("T"))
+                    #set ($dayDisplay = true)
+                #elseif ($day == 'wed' && $classDayRep.contains("W"))
+                    #set ($dayDisplay = true)
+                #elseif ($day == 'thu' && $classDayRep.contains("R"))
+                    #set ($dayDisplay = true)
+                #elseif ($day == 'fri' && $classDayRep.contains("F"))
+                    #set ($dayDisplay = true)
+                #elseif ($day == 'sat' && $classDayRep.contains("S"))
+                    #set ($dayDisplay = true)
+                #end
+            #end
+        #end
+        
+        #if ( $dayDisplay == true )
+	        #set ($startDiff = ${_DateTool.difference($classStartDate, $dayDate)})
+            #if (${_StringTool.substringAfter($startDiff.toString(), "-")} == '')
+                #set ($endDiff = ${_DateTool.difference($classEndDate, $dayDate)})
+                #if (${_StringTool.substringAfter($endDiff.toString(), "-")} != '')    
+                    #set ($classCount = $classCount + 1)
+                    #if (${hour} > 12)
+                        #set ($hour = $hour - 12)
+                    #end
+                    #if (${hourE} > 12)
+                        #set ($hourE = $hourE - 12)
+                    #end
+                    <div class="calendarHours calClass #if (${className.value} == 'OFFICE') officeHours #end" id="${day}${classCount}">
+                        ${hour}:${minutesStr} - ${hourE}:${minutesEStr}<br/>
+                        ${className}<br/>
+                        #if (${classInstr.value} != "Staff")<a href="site://www.svcc.edu/employees/faculty/${classInstr.value.toLowerCase().replaceAll(". ","-")}/index">#end${classInstr.value}#if (${classInstr.value} != "Staff")</a>#end
+                    </div>
+                        #set ($inlineStyles = "${inlineStyles} div#${day}${classCount}  { height:${boxHeight}px;margin-top:${boxTop}px; } div#${day}${classCount}:hover { min-height:${boxHeight}px; }")
+                #end
+            #end
+        #end
+	#end
+    ## end of second set of events (start: line 141)
+#end
+## end of macro (start: line 76)
+
+
+## find start date to loop through the current week (same as above)
+#set ($calendar = $_DateTool.getCalendar() )
+#set ($todayDate = $_DateTool.getDate())
+$calendar.setTime($todayDate)
+#set ($todayDOW = $_DateTool.format('EEE',$todayDate))
+#if ($todayDOW == 'Sun')
+    #set ($startPoint = 0)
+#elseif ($todayDOW == 'Mon')
+	#set ($startPoint = -1)
+#elseif ($todayDOW == 'Tue')
+	#set ($startPoint = -2)
+#elseif ($todayDOW == 'Wed')
+	#set ($startPoint = -3)
+#elseif ($todayDOW == 'Thu')
+	#set ($startPoint = -4)
+#elseif ($todayDOW == 'Fri')
+	#set ($startPoint = -5)
+#elseif ($todayDOW == 'Sat')
+	#set ($startPoint = -6)
+#end
+$calendar.add(6, $startPoint )
+#set ($weekStart = $calendar.getTime())
+#set ($weekDate = $weekStart)
+
+## start outputting the schedule table
+<table cellpadding="0" cellspacing="0" class="facSched">
+<thead>
+    <tr>
+	    <th></th>
+        ## loop through days of week for day-of-week headers
+        #foreach ( $weekDay in [0..6] )
+            <th id="${_DateTool.format('EEE',$weekDate).toLowerCase()}TH">${_DateTool.format('EEEEE',$weekDate)}<br/>${_DateTool.format('MM-dd',$weekDate)}</th>
+            $calendar.add(6, 1)
+            #set ($weekDate = $calendar.getTime())
+        #end
+    </tr>
+</thead>
+<tbody id="facSchedBody">
+    <tr>
+        <th>
+        	## loop through hours of the day (5am-9pm here)
+            #foreach ($item in [5..21])
+                <div id="hour${item}">
+                    #if (${item} > 12)
+                        #set ($itemPM = $item - 12)
+                        ${itemPM}:00pm
+                    #elseif (${item} == 12)
+                        ${item}:00pm
+                    #else
+                        ${item}:00am
+                    #end
+                </div>
+            #end
+        </th>
+        $calendar.setTime($todayDate)
+        $calendar.add(6, $startPoint )
+        #set ($weekDate = $calendar.getTime())
+        
+        ## loop through days of week and start macro (line 76) to output day's events
+        #foreach ( $weekDay in [0..6] )
+            <td>
+                #showSched($weekDate)
+                $calendar.add(6, 1)
+                #set ($weekDate = $calendar.getTime())
+            </td>
+        #end
+    </tr>
+</tbody>
+</table>
+## output styles generated in the macro to control height/positioning of events
+<style type="text/css">${inlineStyles}</style>

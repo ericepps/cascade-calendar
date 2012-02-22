@@ -1,0 +1,2577 @@
+<schedule>
+  <year name="2012">
+    <semester name="Spring" startdate="20120109" enddate="20120511">
+      <subject name="ACC">
+        <subjectstring>Accounting</subjectstring>
+        <course name="Basic Accounting">
+          <number>100</number>
+          <iai/>
+          <outlinepath/>
+          <preq/>
+          <crn name="60070">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>A</sec>
+            <fee/>
+            <meeting>
+              <credits>4</credits>
+              <day>TTh</day>
+              <starttime>14:00</starttime>
+              <endtime>15:40</endtime>
+              <location>3M10</location>
+              <instructor>DM. McKinley</instructor>
+            </meeting>
+            <seatsavailable>12</seatsavailable>
+            <totalseats>25</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Office &amp; Admin Serv:Admin Asst</field>
+            <number>023</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Office &amp; Admin Serv: Medical</field>
+            <number>024</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Office &amp; Admin Serv: Legal</field>
+            <number>026</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Certificate</name>
+            <field>Early Childhood Ed, Adv</field>
+            <number>F16</number>
+            <method>Related Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Financial Accounting">
+          <number>101</number>
+          <iai/>
+          <outlinepath/>
+          <preq/>
+          <crn name="60071">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>A</sec>
+            <fee/>
+            <meeting>
+              <credits>4</credits>
+              <day>TTh</day>
+              <starttime>11:00</starttime>
+              <endtime>12:40</endtime>
+              <location>2M9A</location>
+              <instructor>DH. Day</instructor>
+            </meeting>
+            <seatsavailable>0</seatsavailable>
+            <totalseats>28</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60072">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>N</sec>
+            <fee/>
+            <meeting>
+              <credits>4</credits>
+              <day>T</day>
+              <starttime>18:00</starttime>
+              <endtime>21:40</endtime>
+              <location>2M05</location>
+              <instructor>ME. Dorman</instructor>
+            </meeting>
+            <seatsavailable>10</seatsavailable>
+            <totalseats>28</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60310">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>TI</sec>
+            <fee/>
+            <meeting>
+              <credits>4</credits>
+              <day>Online</day>
+              <starttime/>
+              <endtime/>
+              <location>2M17</location>
+              <instructor>CC. West</instructor>
+            </meeting>
+            <seatsavailable>10</seatsavailable>
+            <totalseats>22</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Marketing</field>
+            <number>020</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Accounting</field>
+            <number>021</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Management</field>
+            <number>022</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Computer Information Systems</field>
+            <number>025</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>CIS Networking</field>
+            <number>075</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>CIS Microcomputer Applications</field>
+            <number>076</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Certificate</name>
+            <field>Accounting</field>
+            <number>B90</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Certificate</name>
+            <field>Management</field>
+            <number>B93</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Managerial Accounting">
+          <number>102</number>
+          <iai/>
+          <outlinepath/>
+          <preq>ACC 101</preq>
+          <crn name="60073">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>A</sec>
+            <fee/>
+            <meeting>
+              <credits>4</credits>
+              <day>MW</day>
+              <starttime>13:30</starttime>
+              <endtime>15:15</endtime>
+              <location>2M9A</location>
+              <instructor>DH. Day</instructor>
+            </meeting>
+            <seatsavailable>-3</seatsavailable>
+            <totalseats>28</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60311">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>TI</sec>
+            <fee/>
+            <meeting>
+              <credits>4</credits>
+              <day>Online</day>
+              <starttime/>
+              <endtime/>
+              <location>2M17</location>
+              <instructor>DM. McKinley</instructor>
+            </meeting>
+            <seatsavailable>12</seatsavailable>
+            <totalseats>23</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Marketing</field>
+            <number>020</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Accounting</field>
+            <number>021</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Management</field>
+            <number>022</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Computer Information Systems</field>
+            <number>025</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>CIS Networking</field>
+            <number>075</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>CIS Microcomputer Applications</field>
+            <number>076</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Certificate</name>
+            <field>Accounting</field>
+            <number>B90</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Intermediate Accounting II">
+          <number>202</number>
+          <iai/>
+          <outlinepath/>
+          <preq>ACC 201</preq>
+          <crn name="60075">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>N</sec>
+            <fee/>
+            <meeting>
+              <credits>4</credits>
+              <day>W</day>
+              <starttime>18:00</starttime>
+              <endtime>21:40</endtime>
+              <location>2M9A</location>
+              <instructor>DH. Day</instructor>
+            </meeting>
+            <seatsavailable>8</seatsavailable>
+            <totalseats>25</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Accounting</field>
+            <number>021</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Certificate</name>
+            <field>Accounting</field>
+            <number>B90</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Tax Accounting">
+          <number>204</number>
+          <iai/>
+          <outlinepath/>
+          <preq>ACC 101</preq>
+          <crn name="60076">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>N</sec>
+            <fee/>
+            <meeting>
+              <credits>3</credits>
+              <day>T</day>
+              <starttime>18:00</starttime>
+              <endtime>20:45</endtime>
+              <location>2M9A</location>
+              <instructor>DH. Day</instructor>
+            </meeting>
+            <seatsavailable>10</seatsavailable>
+            <totalseats>25</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Accounting</field>
+            <number>021</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Certificate</name>
+            <field>Accounting</field>
+            <number>B90</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Acct/Gov &amp; Not-For-Profit Org">
+          <number>207</number>
+          <iai/>
+          <outlinepath/>
+          <preq>ACC 102</preq>
+          <crn name="60822">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>N</sec>
+            <fee/>
+            <meeting>
+              <credits>3</credits>
+              <day>M</day>
+              <starttime>18:00</starttime>
+              <endtime>20:45</endtime>
+              <location>2M9A</location>
+              <instructor>DH. Day</instructor>
+            </meeting>
+            <seatsavailable>4</seatsavailable>
+            <totalseats>25</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Accounting</field>
+            <number>021</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Certificate</name>
+            <field>Accounting</field>
+            <number>B90</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+      </subject>
+      <subject name="BIO">
+        <subjectstring>Biology</subjectstring>
+        <course name="Introductory Biology">
+          <number>103</number>
+          <iai>L1900</iai>
+          <outlinepath/>
+          <preq/>
+          <crn name="60248">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>A</sec>
+            <fee>15</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>MW</day>
+              <starttime>09:30</starttime>
+              <endtime>10:45</endtime>
+              <location>3E12</location>
+              <instructor>BW. Smith</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>36</totalseats>
+            <sec8week>no</sec8week>
+            <comment>Students enrolling in lecture sections A or B must  choose AA, AB, or AC lab </comment>
+          </crn>
+          <crn name="60262">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>AA</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>T</day>
+              <starttime>11:00</starttime>
+              <endtime>12:40</endtime>
+              <location>3G12</location>
+              <instructor>BW. Smith</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60263">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>AB</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>T</day>
+              <starttime>13:00</starttime>
+              <endtime>14:40</endtime>
+              <location>3G12</location>
+              <instructor>BW. Smith</instructor>
+            </meeting>
+            <seatsavailable>3</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60264">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>AC</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>W</day>
+              <starttime>13:30</starttime>
+              <endtime>15:10</endtime>
+              <location>3G12</location>
+              <instructor>BW. Smith</instructor>
+            </meeting>
+            <seatsavailable>0</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60249">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>B</sec>
+            <fee>15</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>TTh</day>
+              <starttime>09:30</starttime>
+              <endtime>10:45</endtime>
+              <location>3E12</location>
+              <instructor>BW. Smith</instructor>
+            </meeting>
+            <seatsavailable>3</seatsavailable>
+            <totalseats>36</totalseats>
+            <sec8week>no</sec8week>
+            <comment>Students enrolling in lecture sections A or B must  choose AA, AB, or AC lab </comment>
+          </crn>
+          <crn name="60269">
+            <startdate>20120117</startdate>
+            <enddate>20120529</enddate>
+            <sec>DH1</sec>
+            <fee/>
+            <meeting>
+              <credits>4</credits>
+              <day>MTWThF</day>
+              <starttime>09:32</starttime>
+              <endtime>10:18</endtime>
+              <location>DHS</location>
+              <instructor>J. Clark</instructor>
+            </meeting>
+            <seatsavailable>8</seatsavailable>
+            <totalseats>19</totalseats>
+            <sec8week>no</sec8week>
+            <omitlisting/>
+            <comment>Current High School students only   Class dates:  January 17, 2012 - May 29, 2012</comment>
+          </crn>
+          <crn name="60633">
+            <startdate>20120117</startdate>
+            <enddate>20120529</enddate>
+            <sec>DH2</sec>
+            <fee/>
+            <meeting>
+              <credits>4</credits>
+              <day>MTWThF</day>
+              <starttime>13:29</starttime>
+              <endtime>14:15</endtime>
+              <location>DHS</location>
+              <instructor>J. Clark</instructor>
+            </meeting>
+            <seatsavailable>2</seatsavailable>
+            <totalseats>25</totalseats>
+            <sec8week>no</sec8week>
+            <omitlisting/>
+            <comment>Class dates:  January 17, 2012 - May 29, 2012</comment>
+          </crn>
+          <crn name="60258">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>N</sec>
+            <fee>15</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>Th</day>
+              <starttime>17:00</starttime>
+              <endtime>19:45</endtime>
+              <location>2M9A</location>
+              <instructor>CL. Lee</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>19:50</starttime>
+              <endtime>21:35</endtime>
+              <location>3G12</location>
+              <instructor>CL. Lee</instructor>
+            </meeting>
+            <seatsavailable>10</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <appliedprogram/>
+        </course>
+        <course name="Introductory Biology">
+          <number>104</number>
+          <iai>L1900</iai>
+          <outlinepath/>
+          <preq/>
+          <crn name="60077">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>A</sec>
+            <fee/>
+            <meeting>
+              <credits>3</credits>
+              <day>MW</day>
+              <starttime>08:00</starttime>
+              <endtime>09:15</endtime>
+              <location>3E12</location>
+              <instructor>BW. Smith</instructor>
+            </meeting>
+            <seatsavailable>4</seatsavailable>
+            <totalseats>30</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60309">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>TI</sec>
+            <fee/>
+            <meeting>
+              <credits>3</credits>
+              <day>Online</day>
+              <starttime/>
+              <endtime/>
+              <location>3G04</location>
+              <instructor>BW. Smith</instructor>
+            </meeting>
+            <seatsavailable>4</seatsavailable>
+            <totalseats>22</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <appliedprogram/>
+        </course>
+        <course name="Principles of Biology">
+          <number>105</number>
+          <iai>L1900</iai>
+          <outlinepath/>
+          <preq/>
+          <crn name="60078">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>A</sec>
+            <fee>30</fee>
+            <meeting>
+              <credits>5</credits>
+              <day>MW</day>
+              <starttime>08:00</starttime>
+              <endtime>09:15</endtime>
+              <location>2C06</location>
+              <instructor>DA. Breen</instructor>
+            </meeting>
+            <seatsavailable>19</seatsavailable>
+            <totalseats>48</totalseats>
+            <sec8week>no</sec8week>
+            <comment>Students enrolling in section A must choose a lab from  BIO 105 AA or AB. </comment>
+          </crn>
+          <crn name="60080">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>AA</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>T</day>
+              <starttime>09:00</starttime>
+              <endtime>11:40</endtime>
+              <location>3F12</location>
+              <instructor>DA. Breen</instructor>
+            </meeting>
+            <seatsavailable>8</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60079">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>AB</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>W</day>
+              <starttime>13:30</starttime>
+              <endtime>16:10</endtime>
+              <location>3F12</location>
+              <instructor>DA. Breen</instructor>
+            </meeting>
+            <seatsavailable>11</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60731">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>N</sec>
+            <fee>30</fee>
+            <meeting>
+              <credits>5</credits>
+              <day>T</day>
+              <starttime>18:00</starttime>
+              <endtime>19:15</endtime>
+              <location>2K9A</location>
+              <instructor>DJ. Castaldo</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>T</day>
+              <starttime>19:20</starttime>
+              <endtime>20:45</endtime>
+              <location>3F12</location>
+              <instructor>DJ. Castaldo</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>18:00</starttime>
+              <endtime>20:45</endtime>
+              <location>2L07</location>
+              <instructor>DJ. Castaldo</instructor>
+            </meeting>
+            <seatsavailable>7</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60831">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>PTH</sec>
+            <fee/>
+            <meeting>
+              <credits>5</credits>
+              <day>MTWThF</day>
+              <starttime>08:10</starttime>
+              <endtime>08:55</endtime>
+              <location>PRHS</location>
+              <instructor>AK. Ringenberg</instructor>
+            </meeting>
+            <seatsavailable>7</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>no</sec8week>
+            <omitlisting/>
+            <comment/>
+          </crn>
+          <appliedprogram/>
+        </course>
+        <course name="Intro to Hum Anatomy/Physiol">
+          <number>108</number>
+          <iai>L1904</iai>
+          <outlinepath/>
+          <preq/>
+          <crn name="60188">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>A</sec>
+            <fee>20</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>TTh</day>
+              <starttime>12:30</starttime>
+              <endtime>13:45</endtime>
+              <location>3E12</location>
+              <instructor>SC. Nunez</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>14:00</starttime>
+              <endtime>15:40</endtime>
+              <location>3E10</location>
+              <instructor>SC. Nunez</instructor>
+            </meeting>
+            <seatsavailable>0</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60486">
+            <startdate>20120116</startdate>
+            <enddate>20120525</enddate>
+            <sec>BVH</sec>
+            <fee/>
+            <meeting>
+              <credits>4</credits>
+              <day>MTWThF</day>
+              <starttime>13:22</starttime>
+              <endtime>14:46</endtime>
+              <location>BVHS</location>
+              <instructor>A. Ledergerber</instructor>
+            </meeting>
+            <seatsavailable>9</seatsavailable>
+            <totalseats>12</totalseats>
+            <sec8week>no</sec8week>
+            <omitlisting/>
+            <comment>Current High School students only   Class dates:  January 16, 2012 - May 25, 2012</comment>
+          </crn>
+          <crn name="60296">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>N</sec>
+            <fee>20</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>MW</day>
+              <starttime>18:00</starttime>
+              <endtime>19:15</endtime>
+              <location>2D15</location>
+              <instructor>ED. Forman</instructor>
+            </meeting>
+            <seatsavailable>9</seatsavailable>
+            <totalseats>48</totalseats>
+            <sec8week>no</sec8week>
+            <comment> Students enrolling in section N must choose a lab from  NA or NB. </comment>
+          </crn>
+          <crn name="60689">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>N1</sec>
+            <fee>20</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>T</day>
+              <starttime>18:00</starttime>
+              <endtime>19:50</endtime>
+              <location>2H14</location>
+              <instructor>JA. Sanders</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>18:00</starttime>
+              <endtime>18:50</endtime>
+              <location>2H14</location>
+              <instructor>JA. Sanders</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>19:00</starttime>
+              <endtime>20:50</endtime>
+              <location>3E10</location>
+              <instructor>JA. Sanders</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60568">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>NA</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>M</day>
+              <starttime>19:30</starttime>
+              <endtime>21:10</endtime>
+              <location>3E10</location>
+              <instructor>ED. Forman</instructor>
+            </meeting>
+            <seatsavailable>5</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60569">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>NB</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>W</day>
+              <starttime>19:30</starttime>
+              <endtime>21:10</endtime>
+              <location>3E10</location>
+              <instructor>ED. Forman</instructor>
+            </meeting>
+            <seatsavailable>4</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60763">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>OHS</sec>
+            <fee/>
+            <meeting>
+              <credits>4</credits>
+              <day>MTWThF</day>
+              <starttime>14:21</starttime>
+              <endtime>15:07</endtime>
+              <location>OHS</location>
+              <instructor>MA. Kriz</instructor>
+            </meeting>
+            <seatsavailable>2</seatsavailable>
+            <totalseats>6</totalseats>
+            <sec8week>no</sec8week>
+            <omitlisting/>
+            <comment/>
+          </crn>
+          <appliedprogram>
+            <name>Certificate</name>
+            <field>Medical Office</field>
+            <number>B83</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Human Anatomy &amp; Physiology I">
+          <number>109</number>
+          <iai>L1904</iai>
+          <outlinepath/>
+          <preq>2 years high school biology and 1 year high school chemistry within last 5 years, or BIO 105 or BIO 108 and CHE 102 or 103, or consent of instructor (min grades of C)</preq>
+          <crn name="60551">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>A</sec>
+            <fee>10</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>MW</day>
+              <starttime>11:00</starttime>
+              <endtime>12:15</endtime>
+              <location>2L05</location>
+              <instructor>BW. Smith</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>11:00</starttime>
+              <endtime>12:40</endtime>
+              <location>3E10</location>
+              <instructor>BW. Smith</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60779">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>B</sec>
+            <fee>10</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>MW</day>
+              <starttime>13:30</starttime>
+              <endtime>14:45</endtime>
+              <location>2H14</location>
+              <instructor>SC. Nunez</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>W</day>
+              <starttime>15:00</starttime>
+              <endtime>16:40</endtime>
+              <location>3E10</location>
+              <instructor>SC. Nunez</instructor>
+            </meeting>
+            <seatsavailable>0</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <appliedprogram/>
+        </course>
+        <course name="Human Anatomy &amp; Physiology II">
+          <number>110</number>
+          <iai/>
+          <outlinepath/>
+          <preq>BIO 109 (min grade of C)</preq>
+          <crn name="60081">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>A</sec>
+            <fee>20</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>MW</day>
+              <starttime>08:00</starttime>
+              <endtime>09:15</endtime>
+              <location>1K04</location>
+              <instructor>SC. Nunez</instructor>
+            </meeting>
+            <seatsavailable>10</seatsavailable>
+            <totalseats>48</totalseats>
+            <sec8week>no</sec8week>
+            <comment>Students enrolling in section A must choose a lab from  BIO 110 AA or AB </comment>
+          </crn>
+          <crn name="60207">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>AA</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>M</day>
+              <starttime>09:30</starttime>
+              <endtime>11:10</endtime>
+              <location>3E10</location>
+              <instructor>SC. Nunez</instructor>
+            </meeting>
+            <seatsavailable>5</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60191">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>AB</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>W</day>
+              <starttime>09:30</starttime>
+              <endtime>11:10</endtime>
+              <location>3E10</location>
+              <instructor>SC. Nunez</instructor>
+            </meeting>
+            <seatsavailable>5</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60082">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>N</sec>
+            <fee>20</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>T</day>
+              <starttime>18:00</starttime>
+              <endtime>21:00</endtime>
+              <location>3E12</location>
+              <instructor>ED. Forman</instructor>
+            </meeting>
+            <seatsavailable>6</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment>Students enrolled in section N must choose NB lab. </comment>
+          </crn>
+          <crn name="60492">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>NB</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>17:30</starttime>
+              <endtime>19:20</endtime>
+              <location>3F12</location>
+              <instructor>ED. Forman</instructor>
+            </meeting>
+            <seatsavailable>6</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <appliedprogram/>
+        </course>
+        <course name="Introductory Microbiology">
+          <number>111</number>
+          <iai/>
+          <outlinepath/>
+          <preq>BIO 105 or BIO 108 or BIO 109 or consent of instructor (min grade of C)</preq>
+          <crn name="60201">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>A</sec>
+            <fee>35</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>TTh</day>
+              <starttime>08:00</starttime>
+              <endtime>09:15</endtime>
+              <location>3E12</location>
+              <instructor>SC. Nunez</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>TTh</day>
+              <starttime>09:30</starttime>
+              <endtime>10:45</endtime>
+              <location>3E10</location>
+              <instructor>SC. Nunez</instructor>
+            </meeting>
+            <seatsavailable>5</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60732">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>N</sec>
+            <fee>35</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>MW</day>
+              <starttime>17:30</starttime>
+              <endtime>18:45</endtime>
+              <location>3G12</location>
+              <instructor>DJ. Castaldo</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>MW</day>
+              <starttime>19:00</starttime>
+              <endtime>20:15</endtime>
+              <location>3E12</location>
+              <instructor>DJ. Castaldo</instructor>
+            </meeting>
+            <seatsavailable>12</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <appliedprogram/>
+        </course>
+        <course name="Environmental Health">
+          <number>120</number>
+          <iai/>
+          <outlinepath/>
+          <preq/>
+          <crn name="60733">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>A</sec>
+            <fee/>
+            <meeting>
+              <credits>3</credits>
+              <day>TTh</day>
+              <starttime>11:00</starttime>
+              <endtime>12:15</endtime>
+              <location>2C10</location>
+              <instructor>EJ. Lincoln</instructor>
+            </meeting>
+            <seatsavailable>21</seatsavailable>
+            <totalseats>40</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60359">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>B</sec>
+            <fee/>
+            <meeting>
+              <credits>3</credits>
+              <day>TTh</day>
+              <starttime>09:30</starttime>
+              <endtime>10:45</endtime>
+              <location>2M05</location>
+              <instructor>EJ. Lincoln</instructor>
+            </meeting>
+            <seatsavailable>13</seatsavailable>
+            <totalseats>30</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60186">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>TI</sec>
+            <fee/>
+            <meeting>
+              <credits>3</credits>
+              <day>Online</day>
+              <starttime/>
+              <endtime/>
+              <location>3G04</location>
+              <instructor>BW. Smith</instructor>
+            </meeting>
+            <seatsavailable>0</seatsavailable>
+            <totalseats>23</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <appliedprogram/>
+        </course>
+        <course name="Introduction to Botany">
+          <number>123</number>
+          <iai/>
+          <outlinepath/>
+          <preq>BIO 105</preq>
+          <crn name="60166">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>A</sec>
+            <fee>45</fee>
+            <meeting>
+              <credits>5</credits>
+              <day>MW</day>
+              <starttime>09:30</starttime>
+              <endtime>10:45</endtime>
+              <location>2L03</location>
+              <instructor>DA. Breen</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>09:00</starttime>
+              <endtime>11:40</endtime>
+              <location>3F12</location>
+              <instructor>DA. Breen</instructor>
+            </meeting>
+            <seatsavailable>13</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <appliedprogram/>
+        </course>
+      </subject>
+      <subject name="NRS">
+        <subjectstring>Nursing</subjectstring>
+        <course name="Basic Nursing Assistant">
+          <number>101</number>
+          <iai/>
+          <outlinepath/>
+          <preq/>
+          <crn name="60241">
+            <startdate>20120109</startdate>
+            <enddate>20120302</enddate>
+            <sec>A</sec>
+            <fee>92</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>TTh</day>
+              <starttime>08:00</starttime>
+              <endtime>13:30</endtime>
+              <location>3F02</location>
+              <instructor>VM. Todd</instructor>
+            </meeting>
+            <seatsavailable>2</seatsavailable>
+            <totalseats>20</totalseats>
+            <sec8week>no</sec8week>
+            <comment>Class will meet 5 days at a clinical site, on those days times will be 6:30 am - noon or 7:00 am - 12:30 pm depending on the clinical site.   Class dates:  January 9, 2012 - March 2, 2012</comment>
+          </crn>
+          <crn name="60677">
+            <startdate>20120109</startdate>
+            <enddate>20120302</enddate>
+            <sec>B</sec>
+            <fee>92</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>MW</day>
+              <starttime>08:00</starttime>
+              <endtime>13:30</endtime>
+              <location>3F02</location>
+              <instructor>JM. Miller</instructor>
+            </meeting>
+            <seatsavailable>2</seatsavailable>
+            <totalseats>20</totalseats>
+            <sec8week>no</sec8week>
+            <comment>Class dates:  January 9, 2012 - March 2, 2012</comment>
+          </crn>
+          <crn name="60379">
+            <startdate>20120109</startdate>
+            <enddate>20120302</enddate>
+            <sec>N</sec>
+            <fee>92</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>MW</day>
+              <starttime>16:00</starttime>
+              <endtime>21:30</endtime>
+              <location>3F02</location>
+              <instructor>KM. Scott</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>no</sec8week>
+            <comment>Class dates:  January 9, 2012 - March 2, 2012</comment>
+          </crn>
+          <appliedprogram>
+            <name>Certificate</name>
+            <field>Nurse Assistant</field>
+            <number>E93</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Med Term &amp; Body Structure">
+          <number>102</number>
+          <iai/>
+          <outlinepath/>
+          <preq/>
+          <crn name="60308">
+            <startdate>20120312</startdate>
+            <enddate>20120504</enddate>
+            <sec>N</sec>
+            <fee/>
+            <meeting>
+              <credits>1</credits>
+              <day>M</day>
+              <starttime>17:00</starttime>
+              <endtime>19:00</endtime>
+              <location>2E8A</location>
+              <instructor>KE. Janssen</instructor>
+            </meeting>
+            <seatsavailable>13</seatsavailable>
+            <totalseats>20</totalseats>
+            <sec8week>yes</sec8week>
+            <comment>Class dates:  March 12, 2012 - May 4, 2012</comment>
+          </crn>
+          <crn name="60605">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>VC1</sec>
+            <fee/>
+            <meeting>
+              <credits>1</credits>
+              <day>MTWThF</day>
+              <starttime>08:00</starttime>
+              <endtime>09:50</endtime>
+              <location>WACC</location>
+              <instructor>JA. Berhow</instructor>
+            </meeting>
+            <seatsavailable>-3</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <omitlisting/>
+            <comment/>
+          </crn>
+          <crn name="60606">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>VC2</sec>
+            <fee/>
+            <meeting>
+              <credits>1</credits>
+              <day>MTWThF</day>
+              <starttime>09:55</starttime>
+              <endtime>11:45</endtime>
+              <location>WACC</location>
+              <instructor>JA. Berhow</instructor>
+            </meeting>
+            <seatsavailable>14</seatsavailable>
+            <totalseats>36</totalseats>
+            <sec8week>no</sec8week>
+            <omitlisting/>
+            <comment/>
+          </crn>
+          <crn name="60607">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>VC3</sec>
+            <fee/>
+            <meeting>
+              <credits>1</credits>
+              <day>MTWThF</day>
+              <starttime>12:25</starttime>
+              <endtime>14:15</endtime>
+              <location>WACC</location>
+              <instructor>JA. Berhow</instructor>
+            </meeting>
+            <seatsavailable>-6</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <omitlisting/>
+            <comment/>
+          </crn>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Office &amp; Admin Serv: Medical</field>
+            <number>024</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Certificate</name>
+            <field>Medical Office</field>
+            <number>B83</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Advanced Nursing Assistant">
+          <number>103</number>
+          <iai/>
+          <outlinepath/>
+          <preq>NRS 101</preq>
+          <crn name="60242">
+            <startdate>20120312</startdate>
+            <enddate>20120504</enddate>
+            <sec>A</sec>
+            <fee>92</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>TTh</day>
+              <starttime>08:00</starttime>
+              <endtime>13:30</endtime>
+              <location>3F02</location>
+              <instructor>JM. Miller</instructor>
+            </meeting>
+            <seatsavailable>2</seatsavailable>
+            <totalseats>20</totalseats>
+            <sec8week>yes</sec8week>
+            <comment>Class will meet 5 days at a clinical site, on those days times will be 6:30 am - noon or 7:00 am - 12:30 pm depending on the clinical site.   Class dates:  March 12, 2012 - May 4, 2012</comment>
+          </crn>
+          <crn name="60678">
+            <startdate>20120312</startdate>
+            <enddate>20120504</enddate>
+            <sec>B</sec>
+            <fee>92</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>MW</day>
+              <starttime>08:00</starttime>
+              <endtime>13:30</endtime>
+              <location>3F02</location>
+              <instructor>P. Swenson</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>20</totalseats>
+            <sec8week>yes</sec8week>
+            <comment>Class dates:  March 12, 2012 - May 4, 2012</comment>
+          </crn>
+          <crn name="60380">
+            <startdate>20120312</startdate>
+            <enddate>20120504</enddate>
+            <sec>N</sec>
+            <fee>92</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>MW</day>
+              <starttime>16:00</starttime>
+              <endtime>21:30</endtime>
+              <location>3F02</location>
+              <instructor>BS. Bloemker</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>yes</sec8week>
+            <comment>Class dates:  March 12, 2012 - May 4, 2012</comment>
+          </crn>
+          <crn name="60489">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>PTH</sec>
+            <fee/>
+            <meeting>
+              <credits>4</credits>
+              <day>MTWThF</day>
+              <starttime>07:00</starttime>
+              <endtime>07:45</endtime>
+              <location>PRHS</location>
+              <instructor>MJ. Johnson</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>no</sec8week>
+            <omitlisting/>
+            <comment>Current High School students only </comment>
+          </crn>
+          <crn name="60441">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>VC1</sec>
+            <fee/>
+            <meeting>
+              <credits>4</credits>
+              <day>MTWThF</day>
+              <starttime>08:00</starttime>
+              <endtime>09:50</endtime>
+              <location>WACC</location>
+              <instructor>MM. Wike</instructor>
+            </meeting>
+            <seatsavailable>-4</seatsavailable>
+            <totalseats>25</totalseats>
+            <sec8week>no</sec8week>
+            <omitlisting/>
+            <comment>Current High School students only </comment>
+          </crn>
+          <crn name="60442">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>VC2</sec>
+            <fee/>
+            <meeting>
+              <credits>4</credits>
+              <day>MTWThF</day>
+              <starttime>09:55</starttime>
+              <endtime>11:45</endtime>
+              <location>WACC</location>
+              <instructor>MM. Wike</instructor>
+            </meeting>
+            <seatsavailable>15</seatsavailable>
+            <totalseats>36</totalseats>
+            <sec8week>no</sec8week>
+            <omitlisting/>
+            <comment>Current High School students only </comment>
+          </crn>
+          <crn name="60444">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>VC3</sec>
+            <fee/>
+            <meeting>
+              <credits>4</credits>
+              <day>MTWThF</day>
+              <starttime>12:25</starttime>
+              <endtime>14:15</endtime>
+              <location>WACC</location>
+              <instructor>MM. Wike</instructor>
+            </meeting>
+            <seatsavailable>-6</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <omitlisting/>
+            <comment>Current High School students only </comment>
+          </crn>
+          <appliedprogram>
+            <name>Certificate</name>
+            <field>Nurse Assistant</field>
+            <number>E93</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Bed Nurs: Concept/Skills II">
+          <number>109</number>
+          <iai/>
+          <outlinepath/>
+          <preq>NRS 108 and BIO 108 (min grade C)</preq>
+          <crn name="60706">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>A</sec>
+            <fee>310</fee>
+            <meeting>
+              <credits>7</credits>
+              <day>MT</day>
+              <starttime>12:00</starttime>
+              <endtime>14:00</endtime>
+              <location>2F8A</location>
+              <instructor>PS. Cunningham</instructor>
+            </meeting>
+            <seatsavailable>0</seatsavailable>
+            <totalseats>20</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60146">
+            <startdate>20120109</startdate>
+            <enddate>20120304</enddate>
+            <sec>AA</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>W</day>
+              <starttime>14:30</starttime>
+              <endtime>17:30</endtime>
+              <location>CGH</location>
+              <instructor>PS. Cunningham</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>W</day>
+              <starttime>14:30</starttime>
+              <endtime>17:30</endtime>
+              <location>KSB</location>
+              <instructor>PS. Cunningham</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>07:00</starttime>
+              <endtime>14:00</endtime>
+              <location>CGH</location>
+              <instructor>PS. Cunningham</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>07:00</starttime>
+              <endtime>14:00</endtime>
+              <location>KSB</location>
+              <instructor>PS. Cunningham</instructor>
+            </meeting>
+            <seatsavailable>0</seatsavailable>
+            <totalseats>20</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60216">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>AD</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>T</day>
+              <starttime>14:15</starttime>
+              <endtime>15:30</endtime>
+              <location>2F8B</location>
+              <instructor>PS. Cunningham</instructor>
+            </meeting>
+            <seatsavailable>0</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60217">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>AE</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>W</day>
+              <starttime>10:15</starttime>
+              <endtime>11:30</endtime>
+              <location>2F8B</location>
+              <instructor>PS. Cunningham</instructor>
+            </meeting>
+            <seatsavailable>0</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <appliedprogram>
+            <name>Certificate</name>
+            <field>Practical Nursing</field>
+            <number>E91</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Bed Nrs: Concept/Skills III">
+          <number>110</number>
+          <iai/>
+          <outlinepath/>
+          <preq>NRS 108 and BIO 108 (min grade C)</preq>
+          <crn name="60147">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>A</sec>
+            <fee>300</fee>
+            <meeting>
+              <credits>7</credits>
+              <day>MT</day>
+              <starttime>09:00</starttime>
+              <endtime>11:00</endtime>
+              <location>2F8A</location>
+              <instructor>CL. Vincent</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>20</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60148">
+            <startdate>20120312</startdate>
+            <enddate>20120504</enddate>
+            <sec>AA</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>W</day>
+              <starttime>14:30</starttime>
+              <endtime>17:30</endtime>
+              <location>KSB</location>
+              <instructor>MA. Bray</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>07:00</starttime>
+              <endtime>14:00</endtime>
+              <location>KSB</location>
+              <instructor>MA. Bray</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>yes</sec8week>
+            <comment>Class dates:  March 12, 2012 - May 4, 2012</comment>
+          </crn>
+          <crn name="60149">
+            <startdate>20120312</startdate>
+            <enddate>20120504</enddate>
+            <sec>AB</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>W</day>
+              <starttime>14:30</starttime>
+              <endtime>15:30</endtime>
+              <location>CGH</location>
+              <instructor>CL. Vincent</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>07:00</starttime>
+              <endtime>14:00</endtime>
+              <location>CGH</location>
+              <instructor>CL. Vincent</instructor>
+            </meeting>
+            <seatsavailable>0</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>yes</sec8week>
+            <comment>Class dates:  March 12, 2012 - May 4, 2012</comment>
+          </crn>
+          <crn name="60218">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>AC</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>W</day>
+              <starttime>10:15</starttime>
+              <endtime>11:30</endtime>
+              <location>2E12</location>
+              <instructor>CL. Vincent</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60219">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>AD</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>T</day>
+              <starttime>14:15</starttime>
+              <endtime>15:30</endtime>
+              <location>2F12</location>
+              <instructor>CL. Vincent</instructor>
+            </meeting>
+            <seatsavailable>0</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <appliedprogram>
+            <name>Certificate</name>
+            <field>Practical Nursing</field>
+            <number>E91</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Drug Dosage Calculations">
+          <number>113</number>
+          <iai/>
+          <outlinepath/>
+          <preq>BIO 108 and NRS 108 (min grades C) or concurrent enrollment in these courses</preq>
+          <crn name="60220">
+            <startdate>20120112</startdate>
+            <enddate>20120329</enddate>
+            <sec>A</sec>
+            <fee/>
+            <meeting>
+              <credits>1</credits>
+              <day>Th</day>
+              <starttime>14:30</starttime>
+              <endtime>16:30</endtime>
+              <location>2F8A</location>
+              <instructor>SL. Rowe</instructor>
+            </meeting>
+            <seatsavailable>7</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>no</sec8week>
+            <comment>Class dates:  January 12, 2012 - March 29, 2012</comment>
+          </crn>
+          <appliedprogram>
+            <name>Certificate</name>
+            <field>Practical Nursing</field>
+            <number>E91</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="LPN Intravenous Therapy">
+          <number>115</number>
+          <iai/>
+          <outlinepath/>
+          <preq/>
+          <crn name="60759">
+            <startdate>20120127</startdate>
+            <enddate>20120217</enddate>
+            <sec>A</sec>
+            <fee>70</fee>
+            <meeting>
+              <credits>2</credits>
+              <day>F</day>
+              <starttime>08:00</starttime>
+              <endtime>16:30</endtime>
+              <location>2E8A</location>
+              <instructor>CL. Vincent</instructor>
+            </meeting>
+            <seatsavailable>11</seatsavailable>
+            <totalseats>30</totalseats>
+            <sec8week>no</sec8week>
+            <comment>Class dates:  January 27, 2012 - February 17, 2012</comment>
+          </crn>
+          <appliedprogram/>
+        </course>
+        <course name="Med Terminology for Hea Career">
+          <number>116</number>
+          <iai/>
+          <outlinepath/>
+          <preq/>
+          <crn name="60497">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>TI</sec>
+            <fee/>
+            <meeting>
+              <credits>3</credits>
+              <day>Online</day>
+              <starttime/>
+              <endtime/>
+              <location>3E04</location>
+              <instructor>DH. Brevitt</instructor>
+            </meeting>
+            <seatsavailable>0</seatsavailable>
+            <totalseats>23</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60505">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>TI2</sec>
+            <fee/>
+            <meeting>
+              <credits>3</credits>
+              <day>Online</day>
+              <starttime/>
+              <endtime/>
+              <location/>
+              <instructor>CL. Salsbury</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>23</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60597">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>TI3</sec>
+            <fee/>
+            <meeting>
+              <credits>3</credits>
+              <day>Online</day>
+              <starttime/>
+              <endtime/>
+              <location/>
+              <instructor>TJ. Strum</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>23</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Radiologic Technology</field>
+            <number>051</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Nutrition and Diet Therapy">
+          <number>132</number>
+          <iai/>
+          <outlinepath/>
+          <preq/>
+          <crn name="60500">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>N</sec>
+            <fee/>
+            <meeting>
+              <credits>3</credits>
+              <day>M</day>
+              <starttime>18:00</starttime>
+              <endtime>21:00</endtime>
+              <location>2F8A</location>
+              <instructor>VM. Todd</instructor>
+            </meeting>
+            <seatsavailable>5</seatsavailable>
+            <totalseats>25</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60378">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>TI</sec>
+            <fee/>
+            <meeting>
+              <credits>3</credits>
+              <day>Online</day>
+              <starttime/>
+              <endtime/>
+              <location/>
+              <instructor>KK. Pink</instructor>
+            </meeting>
+            <seatsavailable>9</seatsavailable>
+            <totalseats>23</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60425">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>TI2</sec>
+            <fee/>
+            <meeting>
+              <credits>3</credits>
+              <day>Online</day>
+              <starttime/>
+              <endtime/>
+              <location/>
+              <instructor>KK. Pink</instructor>
+            </meeting>
+            <seatsavailable>6</seatsavailable>
+            <totalseats>23</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60608">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>VC1</sec>
+            <fee/>
+            <meeting>
+              <credits>3</credits>
+              <day>MTW</day>
+              <starttime>08:00</starttime>
+              <endtime>09:50</endtime>
+              <location>WACC</location>
+              <instructor>JA. Berhow</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <omitlisting/>
+            <comment/>
+          </crn>
+          <crn name="60609">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>VC2</sec>
+            <fee/>
+            <meeting>
+              <credits>3</credits>
+              <day>MTW</day>
+              <starttime>09:55</starttime>
+              <endtime>11:45</endtime>
+              <location>WACC</location>
+              <instructor>JA. Berhow</instructor>
+            </meeting>
+            <seatsavailable>8</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <omitlisting/>
+            <comment/>
+          </crn>
+          <crn name="60610">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>VC3</sec>
+            <fee/>
+            <meeting>
+              <credits>3</credits>
+              <day>MTW</day>
+              <starttime>12:25</starttime>
+              <endtime>14:15</endtime>
+              <location>WACC</location>
+              <instructor>JA. Berhow</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>24</totalseats>
+            <sec8week>no</sec8week>
+            <omitlisting/>
+            <comment/>
+          </crn>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Associate Degree Nursing</field>
+            <number>052</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Associate Degr Nursing-Online</field>
+            <number>053</number>
+            <method>Related Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Medical-Surgical Nursing I">
+          <number>133</number>
+          <iai/>
+          <outlinepath/>
+          <preq>NRS 130 (min grade C) and BIO 110 (min grade C) or concurrent enrollment or consent of instructor</preq>
+          <crn name="60119">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>A</sec>
+            <fee>315</fee>
+            <meeting>
+              <credits>8</credits>
+              <day>MTh</day>
+              <starttime>08:30</starttime>
+              <endtime>10:30</endtime>
+              <location>2E8A</location>
+              <instructor>AJ. West</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>30</totalseats>
+            <sec8week>no</sec8week>
+            <comment>First two clinical days meet at SVCC noon in room TBA </comment>
+          </crn>
+          <crn name="60120">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>AA</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>T</day>
+              <starttime>09:00</starttime>
+              <endtime>11:00</endtime>
+              <location>2E12</location>
+              <instructor>AJ. West</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>T</day>
+              <starttime>15:00</starttime>
+              <endtime>17:00</endtime>
+              <location>KSB</location>
+              <instructor>AJ. West</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>W</day>
+              <starttime>07:00</starttime>
+              <endtime>11:00</endtime>
+              <location>KSB</location>
+              <instructor>AJ. West</instructor>
+            </meeting>
+            <seatsavailable>0</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60325">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>AB</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>T</day>
+              <starttime>15:30</starttime>
+              <endtime>17:30</endtime>
+              <location>2E12</location>
+              <instructor>SK. Gaffey</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>15:00</starttime>
+              <endtime>17:00</endtime>
+              <location>CGH</location>
+              <instructor>SK. Gaffey</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>F</day>
+              <starttime>07:00</starttime>
+              <endtime>11:00</endtime>
+              <location>CGH</location>
+              <instructor>SK. Gaffey</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60121">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>AC</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>T</day>
+              <starttime>09:00</starttime>
+              <endtime>11:00</endtime>
+              <location>2F12</location>
+              <instructor>PA. Duncan</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>T</day>
+              <starttime>15:00</starttime>
+              <endtime>17:00</endtime>
+              <location>CGH</location>
+              <instructor>PA. Duncan</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>W</day>
+              <starttime>07:00</starttime>
+              <endtime>11:00</endtime>
+              <location>CGH</location>
+              <instructor>PA. Duncan</instructor>
+            </meeting>
+            <seatsavailable>0</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Associate Degree Nursing</field>
+            <number>052</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Nrs Concept - Role Transition">
+          <number>200</number>
+          <iai/>
+          <outlinepath/>
+          <preq>Licensed practical nurses or eligible for licensure</preq>
+          <crn name="60211">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>A</sec>
+            <fee/>
+            <meeting>
+              <credits>1</credits>
+              <day>TBA</day>
+              <starttime/>
+              <endtime/>
+              <location/>
+              <instructor>PA. Duncan</instructor>
+            </meeting>
+            <seatsavailable>3</seatsavailable>
+            <totalseats>5</totalseats>
+            <sec8week>no</sec8week>
+            <comment>First class will meet Wednesday, January 12, 2:00-3:00 pm in Room 3F02 </comment>
+          </crn>
+          <crn name="60212">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>B</sec>
+            <fee>25</fee>
+            <meeting>
+              <credits>2</credits>
+              <day>TBA</day>
+              <starttime/>
+              <endtime/>
+              <location/>
+              <instructor>PA. Duncan</instructor>
+            </meeting>
+            <seatsavailable>4</seatsavailable>
+            <totalseats>5</totalseats>
+            <sec8week>no</sec8week>
+            <comment>First class will meet Wednesday, January 12, 2:00-3:00pm, in Room 3F02 </comment>
+          </crn>
+          <appliedprogram/>
+        </course>
+        <course name="Psych/Mental Health Nursing">
+          <number>232</number>
+          <iai/>
+          <outlinepath/>
+          <preq>NRS 133, BIO 110 and BIO 111 (min grade C)</preq>
+          <crn name="60122">
+            <startdate>20120109</startdate>
+            <enddate>20120302</enddate>
+            <sec>A</sec>
+            <fee>175</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>MT</day>
+              <starttime>06:45</starttime>
+              <endtime>15:00</endtime>
+              <location>KSB</location>
+              <instructor>C. Vos</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>MT</day>
+              <starttime>07:30</starttime>
+              <endtime>15:30</endtime>
+              <location>MMC</location>
+              <instructor>C. Vos</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>MT</day>
+              <starttime>08:30</starttime>
+              <endtime>16:30</endtime>
+              <location>SINSIP</location>
+              <instructor>C. Vos</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>MTh</day>
+              <starttime>12:30</starttime>
+              <endtime>16:30</endtime>
+              <location>THCC</location>
+              <instructor>AJ. West</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>W</day>
+              <starttime>08:30</starttime>
+              <endtime>10:30</endtime>
+              <location>2F10</location>
+              <instructor>C. Vos</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>W</day>
+              <starttime>10:30</starttime>
+              <endtime>12:00</endtime>
+              <location>2F10</location>
+              <instructor>C. Vos</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>08:30</starttime>
+              <endtime>11:30</endtime>
+              <location>2F10</location>
+              <instructor>C. Vos</instructor>
+            </meeting>
+            <seatsavailable>-3</seatsavailable>
+            <totalseats>15</totalseats>
+            <sec8week>no</sec8week>
+            <comment>Class will meet M-F at SVCC the first week, times TBA.   Class dates:  January 9, 2012 - March 2, 2012</comment>
+          </crn>
+          <crn name="60125">
+            <startdate>20120312</startdate>
+            <enddate>20120504</enddate>
+            <sec>B</sec>
+            <fee>175</fee>
+            <meeting>
+              <credits>4</credits>
+              <day>MT</day>
+              <starttime>06:45</starttime>
+              <endtime>15:00</endtime>
+              <location>KSB</location>
+              <instructor>C. Vos</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>MT</day>
+              <starttime>07:30</starttime>
+              <endtime>15:30</endtime>
+              <location>MMC</location>
+              <instructor>C. Vos</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>MT</day>
+              <starttime>08:30</starttime>
+              <endtime>16:30</endtime>
+              <location>SINSIP</location>
+              <instructor>C. Vos</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>MTh</day>
+              <starttime>12:30</starttime>
+              <endtime>16:30</endtime>
+              <location>THCC</location>
+              <instructor>AJ. West</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>W</day>
+              <starttime>08:30</starttime>
+              <endtime>10:30</endtime>
+              <location>2F10</location>
+              <instructor>C. Vos</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>W</day>
+              <starttime>10:30</starttime>
+              <endtime>12:00</endtime>
+              <location>2F10</location>
+              <instructor>C. Vos</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>08:30</starttime>
+              <endtime>11:30</endtime>
+              <location>2F10</location>
+              <instructor>C. Vos</instructor>
+            </meeting>
+            <seatsavailable>0</seatsavailable>
+            <totalseats>16</totalseats>
+            <sec8week>yes</sec8week>
+            <comment>Class will meet M-F at SVCC the first week, times TBA.   Class dates:  March 12, 2012 - May 4, 2012</comment>
+          </crn>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Associate Degree Nursing</field>
+            <number>052</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Nursing of Children">
+          <number>234</number>
+          <iai/>
+          <outlinepath/>
+          <preq>NRS 133, BIO 110, BIO 111 and PSY 200 (min grades C)</preq>
+          <crn name="60126">
+            <startdate>20120109</startdate>
+            <enddate>20120511</enddate>
+            <sec>A</sec>
+            <fee>135</fee>
+            <meeting>
+              <credits>3</credits>
+              <day>W</day>
+              <starttime>13:30</starttime>
+              <endtime>15:30</endtime>
+              <location>2F10</location>
+              <instructor>PA. Duncan</instructor>
+            </meeting>
+            <seatsavailable>0</seatsavailable>
+            <totalseats>15</totalseats>
+            <sec8week>no</sec8week>
+            <comment/>
+          </crn>
+          <crn name="60127">
+            <startdate>20120109</startdate>
+            <enddate>20120302</enddate>
+            <sec>AA</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>M</day>
+              <starttime>07:00</starttime>
+              <endtime>14:00</endtime>
+              <location>CGH</location>
+              <instructor>PA. Duncan</instructor>
+            </meeting>
+            <seatsavailable>3</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>no</sec8week>
+            <comment>Class dates:  January 9, 2012 - March 2, 2012</comment>
+          </crn>
+          <crn name="60128">
+            <startdate>20120312</startdate>
+            <enddate>20120504</enddate>
+            <sec>AB</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>M</day>
+              <starttime>07:00</starttime>
+              <endtime>14:00</endtime>
+              <location>CGH</location>
+              <instructor>PA. Duncan</instructor>
+            </meeting>
+            <seatsavailable>2</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>yes</sec8week>
+            <comment>Class dates:  March 12, 2012 - May 4, 2012</comment>
+          </crn>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Associate Degree Nursing</field>
+            <number>052</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Medical-Surgical Nursing III">
+          <number>235</number>
+          <iai/>
+          <outlinepath/>
+          <preq/>
+          <crn name="60129">
+            <startdate>20120109</startdate>
+            <enddate>20120302</enddate>
+            <sec>A</sec>
+            <fee>280</fee>
+            <meeting>
+              <credits>5</credits>
+              <day>W</day>
+              <starttime>08:30</starttime>
+              <endtime>11:30</endtime>
+              <location>2F8A</location>
+              <instructor>TL. Ernst</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>08:30</starttime>
+              <endtime>10:30</endtime>
+              <location>2F8A</location>
+              <instructor>TL. Ernst</instructor>
+            </meeting>
+            <seatsavailable>6</seatsavailable>
+            <totalseats>20</totalseats>
+            <sec8week>no</sec8week>
+            <comment>Sections A, AA, meet 1st week at SVCC, time and room TBA   Class dates:  January 9, 2012 - March 2, 2012</comment>
+          </crn>
+          <crn name="60130">
+            <startdate>20120109</startdate>
+            <enddate>20120302</enddate>
+            <sec>AA</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>M</day>
+              <starttime>13:00</starttime>
+              <endtime>15:30</endtime>
+              <location>CGH</location>
+              <instructor>TL. Ernst</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>T</day>
+              <starttime>07:00</starttime>
+              <endtime>13:30</endtime>
+              <location>CGH</location>
+              <instructor>TL. Ernst</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>12:00</starttime>
+              <endtime>14:00</endtime>
+              <location>2E8B</location>
+              <instructor>TL. Ernst</instructor>
+            </meeting>
+            <seatsavailable>3</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>no</sec8week>
+            <comment>Class dates:  January 9, 2012 - March 2, 2012</comment>
+          </crn>
+          <crn name="60288">
+            <startdate>20120109</startdate>
+            <enddate>20120302</enddate>
+            <sec>AB</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>M</day>
+              <starttime>13:00</starttime>
+              <endtime>15:30</endtime>
+              <location>KSB</location>
+              <instructor>SL. Rowe</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>T</day>
+              <starttime>07:00</starttime>
+              <endtime>13:30</endtime>
+              <location>KSB</location>
+              <instructor>SL. Rowe</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>14:30</starttime>
+              <endtime>16:30</endtime>
+              <location>2E8B</location>
+              <instructor>TL. Ernst</instructor>
+            </meeting>
+            <seatsavailable>3</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>no</sec8week>
+            <comment>Class dates:  January 9, 2012 - March 2, 2012</comment>
+          </crn>
+          <crn name="60138">
+            <startdate>20120312</startdate>
+            <enddate>20120504</enddate>
+            <sec>B</sec>
+            <fee>280</fee>
+            <meeting>
+              <credits>5</credits>
+              <day>W</day>
+              <starttime>08:30</starttime>
+              <endtime>11:30</endtime>
+              <location>2F8A</location>
+              <instructor>TL. Ernst</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>08:30</starttime>
+              <endtime>10:30</endtime>
+              <location>2F8A</location>
+              <instructor>TL. Ernst</instructor>
+            </meeting>
+            <seatsavailable>3</seatsavailable>
+            <totalseats>20</totalseats>
+            <sec8week>yes</sec8week>
+            <comment>Sections B, BB, meet 1st week at SVCC, time and room TBA   Class dates:  March 12, 2012 - May 4, 2012</comment>
+          </crn>
+          <crn name="60139">
+            <startdate>20120312</startdate>
+            <enddate>20120504</enddate>
+            <sec>BA</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>M</day>
+              <starttime>13:00</starttime>
+              <endtime>15:30</endtime>
+              <location>CGH</location>
+              <instructor>TL. Ernst</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>T</day>
+              <starttime>07:00</starttime>
+              <endtime>13:30</endtime>
+              <location>CGH</location>
+              <instructor>TL. Ernst</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>12:00</starttime>
+              <endtime>14:00</endtime>
+              <location>2E8B</location>
+              <instructor>TL. Ernst</instructor>
+            </meeting>
+            <seatsavailable>2</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>yes</sec8week>
+            <comment>Class dates:  March 12, 2012 - May 4, 2012</comment>
+          </crn>
+          <crn name="60289">
+            <startdate>20120312</startdate>
+            <enddate>20120504</enddate>
+            <sec>BB</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>M</day>
+              <starttime>13:00</starttime>
+              <endtime>15:30</endtime>
+              <location>KSB</location>
+              <instructor>SL. Rowe</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>T</day>
+              <starttime>07:00</starttime>
+              <endtime>13:30</endtime>
+              <location>KSB</location>
+              <instructor>SL. Rowe</instructor>
+            </meeting>
+            <meeting>
+              <credits/>
+              <day>Th</day>
+              <starttime>14:30</starttime>
+              <endtime>16:30</endtime>
+              <location>2E8B</location>
+              <instructor>TL. Ernst</instructor>
+            </meeting>
+            <seatsavailable>1</seatsavailable>
+            <totalseats>10</totalseats>
+            <sec8week>yes</sec8week>
+            <comment>Class dates:  March 12, 2012 - May 4, 2012</comment>
+          </crn>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Associate Degree Nursing</field>
+            <number>052</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Performance Exams">
+          <number>235</number>
+          <iai/>
+          <outlinepath/>
+          <preq/>
+          <crn name="60222">
+            <startdate>20120102</startdate>
+            <enddate>20120519</enddate>
+            <sec>ZZ</sec>
+            <fee/>
+            <meeting>
+              <credits/>
+              <day>MTWThF</day>
+              <starttime>07:00</starttime>
+              <endtime>17:00</endtime>
+              <location>2E8A</location>
+              <instructor>Staff</instructor>
+            </meeting>
+            <seatsavailable>0</seatsavailable>
+            <totalseats>0</totalseats>
+            <sec8week>no</sec8week>
+            <omitlisting/>
+            <comment>Class dates:  January 2, 2012 - May 19, 2012</comment>
+          </crn>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Associate Degree Nursing</field>
+            <number>052</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+        <course name="Trends in Nursing">
+          <number>239</number>
+          <iai/>
+          <outlinepath/>
+          <preq>NRS 133, BIO 110 and BIO 111 (min grade C)</preq>
+          <crn name="60498">
+            <startdate>20120109</startdate>
+            <enddate>20120302</enddate>
+            <sec>TI</sec>
+            <fee/>
+            <meeting>
+              <credits>1</credits>
+              <day>Online</day>
+              <starttime/>
+              <endtime/>
+              <location>2F04</location>
+              <instructor>PA. Duncan</instructor>
+            </meeting>
+            <seatsavailable>3</seatsavailable>
+            <totalseats>20</totalseats>
+            <sec8week>no</sec8week>
+            <comment>Class dates:  January 9, 2012 - March 2, 2012</comment>
+          </crn>
+          <appliedprogram>
+            <name>Associate in Applied Science</name>
+            <field>Associate Degree Nursing</field>
+            <number>052</number>
+            <method>Major Field Requirement</method>
+          </appliedprogram>
+        </course>
+      </subject>
+    </semester>
+  </year>
+</schedule>
