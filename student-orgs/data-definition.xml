@@ -1,0 +1,10 @@
+<system-data-structure>
+  <asset identifier="studentOrg" label="Choose Student Organization" multiple="true" required="true" type="page"/>
+  <text identifier="eventTitle" label="Title" required="true"/>
+  <asset identifier="eventImage" label="Image" type="file"/>
+  <text identifier="eventDesc" label="Description" multi-line="true"/>
+  <group identifier="time" label="Event Time" multiple="true">
+    <text identifier="startTime" label="Start Time" required="true" type="datetime"/>
+    <text identifier="endTime" label="End Time" type="datetime"/>
+  </group>
+</system-data-structure>
