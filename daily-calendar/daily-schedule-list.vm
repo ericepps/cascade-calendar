@@ -1,0 +1,127 @@
+#set ($pageName = $_XPathTool.selectSingleNode($contentRoot,"//calling-page/system-page/name").value )
+#set ($currentDay = $pageName.substring(0,6) + "20" + $pageName.substring(6,8) )
+#set ($eventCal = $_XPathTool.selectSingleNode($contentRoot,"/system-data-structure/blockID/content/calendar"))
+#set ($classCal = $_XPathTool.selectSingleNode($contentRoot,"/system-data-structure/blockID/content/schedule"))
+
+#set ($todayDate = $_DateTool.toDate('MM-dd-yyyy',$currentDay))
+#set ($dayYear = $_DateTool.format('yyyy',$todayDate))
+#set ($dayMon = $_DateTool.format('M',$todayDate))
+#set ($dayDay = $_DateTool.format('d',$todayDate))
+#set ($dayMonTwo = $_DateTool.format('MM',$todayDate))
+#set ($dayDayTwo = $_DateTool.format('dd',$todayDate))
+#set ($dayWeek = $_DateTool.format('EEE',$todayDate))
+
+<table cellpadding="0" cellspacing="0" summary="Full listing of events for ${_DateTool.format('MMMMM dd, yyyy',$todayDate)}">
+<caption><h2>Full Listing for ${_DateTool.format('MMMMM dd, yyyy',$todayDate)}</h2></caption>
+<col width="25%" />
+<col width="40%" />
+<col width="10%" />
+<col width="20%" />
+<thead>
+<tr><th id="timeCol">Time</th><th id="eventCol">Event</th><th id="locCol">Location</th><th id="facCol">Facilitator</th></tr>
+</thead>
+<tbody>
+#set ($events = $_XPathTool.selectNodes($eventCal, "//event[../value = '${dayDay}' and ../../value = '${dayMon}' and ../../../value = '${dayYear}']"))
+#foreach ($event in $events)
+
+#set ($location = $_XPathTool.selectSingleNode($event, "location"))
+#set ($classDay = $_XPathTool.selectSingleNode($event, "meeting/day"))
+#set ($className = $_XPathTool.selectSingleNode($event, "description"))
+#set ($startDate = $_XPathTool.selectSingleNode($event, "startdate"))
+#set ($endDate = $_XPathTool.selectSingleNode($event, "enddate"))
+#set ($classInstr = $_XPathTool.selectSingleNode($event, "facilitator"))
+
+#set ($hourStr = $_XPathTool.selectSingleNode($event, "starttime/hour"))
+#set ($minutesStr = $_XPathTool.selectSingleNode($event, "starttime/minute"))
+#set ($amStr = $_XPathTool.selectSingleNode($event, "starttime/am"))
+#set ($hourEStr = $_XPathTool.selectSingleNode($event, "endtime/hour"))
+#set ($minutesEStr = $_XPathTool.selectSingleNode($event, "endtime/minute"))
+#set ($amEStr = $_XPathTool.selectSingleNode($event, "endtime/am"))
+#set ($hour = $_MathTool.toInteger($hourStr.value))
+#set ($minutes = $_MathTool.toInteger($minutesStr.value))
+#set ($hourE = $_MathTool.toInteger($hourEStr.value))
+
+#if ($amStr.value == 'false')
+#set ($startAP = "p")
+#else
+#set ($startAP = "a")
+#end
+#if ($amEStr.value == 'false')
+#set ($endAP = "p")
+#else
+#set ($endAP = "a")
+#end
+#set ($minutesE = $_MathTool.toInteger($minutesEStr.value))
+
+<tr>
+<th headers="timeCol">${hour}:${minutesStr.value}${startAP} - ${hourE}:${minutesEStr.value}${endAP}</th>
+<td headers="eventCol">${_EscapeTool.xml($className.value)}</td>
+<td headers="locCol">${_EscapeTool.xml($location.value)}</td>
+<td headers="facCol">${_EscapeTool.xml($classInstr.value)}</td>
+</tr>
+#end
+</tbody>
+</table>
+<h2>View Room Schedules</h2>
+#set ($floors = $_XPathTool.selectNodes($contentRoot, "//floor"))
+#foreach ($floor in $floors)
+#set ($floorName = $_XPathTool.selectSingleNode($floor, "@name"))
+<h3 style="clear:left;">${floorName.value}</h3>
+#set ($rooms= $_XPathTool.selectNodes($floor, "room"))
+<ul>
+#foreach ($room in $rooms)
+##count of events for the room
+#set ($roomEvents = $_XPathTool.selectSingleNode($eventCal, "count(//event[location = '${room.value}' and ../value = '${dayDay}' and ../../value = '${dayMon}' and ../../../value = '${dayYear}'])"))
+##count of classes for the room
+#set ($classes = $_XPathTool.selectNodes($classCal, "//meeting[location = '${room.value}' and not(../omitlisting) and ../startdate <= '${dayYear}${dayMonTwo}${dayDayTwo}' and ../enddate >= '${dayYear}${dayMonTwo}${dayDayTwo}']"))
+#foreach ($class in $classes)
+#set ($classDay = $_XPathTool.selectSingleNode($class, "day"))
+#set ($classDayRep = $classDay.value.replaceAll("Th","R"))
+#if ($dayWeek == 'Mon' && $classDayRep.contains("M"))
+#set ($roomEvents = $roomEvents + 1)
+#elseif ($dayWeek == 'Tue' && $classDayRep.contains("T"))
+#set ($roomEvents = $roomEvents + 1)
+#elseif ($dayWeek == 'Wed' && $classDayRep.contains("W"))
+#set ($roomEvents = $roomEvents + 1)
+#elseif ($dayWeek == 'Thu' && $classDayRep.contains("R"))
+#set ($roomEvents = $roomEvents + 1)
+#elseif ($dayWeek == 'Fri' && $classDayRep.contains("F"))
+#set ($roomEvents = $roomEvents + 1)
+#elseif ($dayWeek == 'Sat' && $classDayRep.contains("S"))
+#set ($roomEvents = $roomEvents + 1)
+#end
+#end
+##get start date for link
+#set ($calendar = $_DateTool.getCalendar() )
+
+$calendar.setTime($todayDate)
+#set ($todayDOW = $_DateTool.format('EEE',$todayDate))
+#if ($todayDOW == 'Sun')
+#set ($startPoint = 0)
+#elseif ($todayDOW == 'Mon')
+#set ($startPoint = -1)
+#elseif ($todayDOW == 'Tue')
+#set ($startPoint = -2)
+#elseif ($todayDOW == 'Wed')
+#set ($startPoint = -3)
+#elseif ($todayDOW == 'Thu')
+#set ($startPoint = -4)
+#elseif ($todayDOW == 'Fri')
+#set ($startPoint = -5)
+#elseif ($todayDOW == 'Sat')
+#set ($startPoint = -6)
+#end
+$calendar.add(6, $startPoint )
+#set ($weekStart = $calendar.getTime())
+#set ($urlName = ${room.value} + "_" + ${_DateTool.format('MM-dd-yy',$weekStart)})
+
+<li style="width:5em; float:left; list-style-type:none;">
+<a href="/rooms/weekly/${urlName}">${room.value}</a> 
+#if (${roomEvents} > 0)
+#set ($roomEvents = $_MathTool.round($roomEvents))
+<span style="font-style:italic; color:#666;">(${roomEvents})</span>
+#end
+</li>
+#end
+</ul><br class="clearBoth"/>
+#end##
